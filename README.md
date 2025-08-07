@@ -24,6 +24,14 @@ This repo assumes you know what you're doing. Defaults are heavily customized an
 
 ---
 
+## 🧠 Prompt Entry Point
+
+The default entry point for large or multi-step prompts is **Orchestrator**, which is included by default in Kilo Code.
+
+You may define your own prompt flow strategies as needed — this repo stays unopinionated about modes.
+
+---
+
 ## 📦 How to Use These Rules
 
 1. Clone into your project root:
@@ -41,13 +49,7 @@ mv kilocode-rules .kilocode
 
 3. Kilo Code will automatically detect `.kilocode` and apply the rules.
 
----
-
-## 🧠 Prompt Entry Point
-
-The default entry point for large or multi-step prompts is **Orchestrator**, which is included by default in Kilo Code.
-
-You may define your own prompt flow strategies as needed — this repo stays unopinionated about modes.
+Note: To enable Memory Bank, switch to Architect mode and run "initialize memory bank". For details, see the Memory Bank docs: https://kilocode.ai/docs/advanced-usage/memory-bank
 
 ---
 

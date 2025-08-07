@@ -8,10 +8,9 @@ description: Always include these rules.
 globs: 
 alwaysApply: true
 ---
-Before every Plan/Architect task ALWAYS do 3 things:
-a. Read the existing documentation in `docs/` : i. `docs/architecture.md`, ii. `docs/product_requirement_docs.md`, iii. `docs/technical.md`
-b. Read the plans and related task planning & context in `tasks/`: i. `tasks/active_context.md`, ii. `tasks/tasks_plan.md`
-c. Get required solution conytext from the code files in `src` and other codes at other places.
+Before every Plan/Architect task ALWAYS do 2 things:
+a. Read the existing documentation and plans in `.kilocode/rules/memory-bank/` (architecture, PRDs, technical docs, active context, plans and tasks).
+b. Get required solution conytext from the code files in `src` and other codes at other places.
 ---
 # Below is the Planning Workflow to follow:
 
@@ -77,6 +76,4 @@ c. `robust`: Plan for error scenarious and failure cases and have fallbacks for 
 d. `accurate`: Every aspect should be in sync with each other and individual components should be correct and the interfaces should be correct.   
 ---
 
-After every Plan/Architect task ALWAYS do 2 things:
-a. Document the plan into existing documentation and update files in `docs/` : i. `docs/architecture.md`, ii. `docs/product_requirement_docs.md`, iii. `docs/technical.md`
-b. Document the plans and related task planning & context in `tasks/`: i. `tasks/active_context.md`, ii. `tasks/tasks_plan.md`
+After every Plan/Architect task ALWAYS document and update the plan in `.kilocode/rules/memory-bank/` (architecture, PRDs, technical docs, active context, plans and tasks).

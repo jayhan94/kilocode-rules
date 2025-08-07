@@ -9,7 +9,7 @@ globs:
 alwaysApply: true
 ---
 Before every code implementation/change ALWAYS do 2 things:
-a. Read and understand the documentation in `docs/` and `tasks/`
+a. Read and understand the documentation, plans and tasks in `.kilocode/rules/memory-bank/`
 a. Get required code context from `src` and other codes at other places.
 ---
 # IMPLEMENTATION (ACT MODE/Code MODE):
@@ -40,7 +40,7 @@ a. Get required code context from `src` and other codes at other places.
 - Before proposing any changes, conduct a complete end-to-end flow analysis of the relevant use case from the entry point (e.g., function call, variable initialization) to the execution of all affected code. 
 - Track the flow of data and logic throughout all components involved to understand its full scope.
 </FLOW ANALYSIS>
-- Document these dependencies thoroughly, including the specific usage of functions or logic in files specified by @memory.mdc
+- Document these dependencies thoroughly, including the specific usage of functions or logic in files specified in `.kilocode/rules/memory-bank` folder.
 </ANALYZE CODE>
 
 [Step: 2]
@@ -55,7 +55,7 @@ a. Get required code context from `src` and other codes at other places.
 [Step: 3]
 <MAKE CHANGES>
 
-1. Document Current State in files specified by @memory.mdc
+1. Document Current State in files specified in `.kilocode/rules/memory-bank` folder.
 - What’s currently working?
 - What’s the current error/issue?
 - Which files will be affected?
@@ -116,7 +116,7 @@ After you propose a change, run the tests yourself, and verify that it passes. D
 </TEST PLAN>
 
 2. Write test code for ANY added critical functionality ALWAYS. For initial test generation use <DEPENDENCY BASED TESTING> and <NO BREAKAGE ASSERTION>. Then use <TEST PLAN> to write code for extensive testing.
-3. Document testing as specified in @memory.mdc
+3. Document testing as specified in `.kilocode/rules/memory-bank` folder.
 </TESTING>
 
 - When implementing something new, be relentless and implement everything to the letter. Stop only when you're done till successfully testing, not before.
@@ -124,4 +124,4 @@ After you propose a change, run the tests yourself, and verify that it passes. D
 ---
 After every code implementation/change ALWAYS do 2 things:
 a. Update other possibly affected codes in `src` and other codes at other places.
-b. Update the documentation in `docs/` and `tasks/`.
+b. Update the documentation, plans and tasks in `.kilocode/rules/memory-bank/`.
