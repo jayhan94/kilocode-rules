@@ -10,7 +10,7 @@ alwaysApply: true
 ---
 Before every Plan/Architect task ALWAYS do 2 things:
 a. Read the existing documentation and plans in `.kilocode/rules/memory-bank/` (architecture, PRDs, technical docs, active context, plans and tasks).
-b. Get required solution conytext from the code files in `src` and other codes at other places.
+b. Get required solution context from the code files in `src` and other codes at other places.
 ---
 # Below is the Planning Workflow to follow:
 
