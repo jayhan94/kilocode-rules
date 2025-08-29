@@ -53,25 +53,9 @@ Note: To enable Memory Bank, switch to Architect mode and run "initialize memory
 
 ---
 
-## ⚡ Why Bun?
-
-This repo is configured to run under [Bun](https://bun.sh/) instead of npm or pnpm:
-
-* Faster install and runtime
-* Native TypeScript + file watcher
-* Cleaner scripts
-
-If you're not using Bun, install it first:
-
-```bash
-curl -fsSL https://bun.sh/install | bash
-```
-
----
-
 ## 🙏 Credits
 
-* Base prompt structure and configuration largely forked from [`rules_template`](https://github.com/Bhartendu-Kumar/rules_template)
+* Base prompt structure and configuration largely forked from [`shanefully-done/kilocode-rules`](https://github.com/shanefully-done/kilocode-rules)
 
 ---
 
