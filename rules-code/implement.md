@@ -122,6 +122,7 @@ After you propose a change, run the tests yourself, and verify that it passes. D
 - When implementing something new, be relentless and implement everything to the letter. Stop only when you're done till successfully testing, not before.
 
 ---
-After every code implementation/change ALWAYS do 2 things:
+After every code implementation/change ALWAYS do 3 things:
 a. Update other possibly affected codes in `src` and other codes at other places.
 b. Update the documentation, plans and tasks in `.kilocode/rules/memory-bank/`.
+c. Reformat all modified code.
