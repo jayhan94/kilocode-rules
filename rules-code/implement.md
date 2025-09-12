@@ -12,6 +12,9 @@ Before every code implementation/change ALWAYS do 2 things:
 a. Read and understand the documentation, plans and tasks in `.kilocode/rules/memory-bank/`
 a. Get required code context from `src` and other codes at other places.
 ---
+# LANGUAGE
+Write code, comments, documents and any other project files in English, but chat with me in Chinese in the chat window.
+---
 # IMPLEMENTATION (ACT MODE/Code MODE):
 <PROGRAMMING PRINCIPLES>
 - algorithm_efficiency: use the most efficient algorithms and data structures
